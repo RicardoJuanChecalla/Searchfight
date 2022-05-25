@@ -14,7 +14,6 @@ using Searchfight.Infrastructure.Factorys;
             Console.WriteLine("Loading results ...");
             var searchManager = SearchFightFactory.CreateSearchManager();
             var result = await searchManager.GetSearchReport(args.ToList());
-            // Console.Clear();
             Console.WriteLine(result);
         }
     }
@@ -22,5 +21,4 @@ using Searchfight.Infrastructure.Factorys;
     {
         Console.WriteLine($"Unexpected error generating the report: {ex.Message}");
     }
-    // Console.ReadKey();
 
