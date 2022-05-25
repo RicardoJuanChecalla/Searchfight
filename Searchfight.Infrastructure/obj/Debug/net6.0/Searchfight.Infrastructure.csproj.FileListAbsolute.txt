@@ -1,0 +1,15 @@
+D:\Tarea\Searchfight\Searchfight.Infrastructure\bin\Debug\net6.0\Searchfight.Infrastructure.deps.json
+D:\Tarea\Searchfight\Searchfight.Infrastructure\bin\Debug\net6.0\Searchfight.Infrastructure.dll
+D:\Tarea\Searchfight\Searchfight.Infrastructure\bin\Debug\net6.0\Searchfight.Infrastructure.pdb
+D:\Tarea\Searchfight\Searchfight.Infrastructure\bin\Debug\net6.0\Searchfight.Core.dll
+D:\Tarea\Searchfight\Searchfight.Infrastructure\bin\Debug\net6.0\Searchfight.Core.pdb
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.csproj.AssemblyReference.cache
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.AssemblyInfoInputs.cache
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.AssemblyInfo.cs
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.csproj.CopyComplete
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.dll
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\refint\Searchfight.Infrastructure.dll
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\Searchfight.Infrastructure.pdb
+D:\Tarea\Searchfight\Searchfight.Infrastructure\obj\Debug\net6.0\ref\Searchfight.Infrastructure.dll

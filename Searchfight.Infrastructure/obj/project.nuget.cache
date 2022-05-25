@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xHy8jlTHQzmRIHngtci39LcMZKe/ZoLwXA37xODVl+KfpZ/QHfKQa2xaBQN4NWy2L+T1Znjw9Uerzi1+tVjg/A==",
+  "success": true,
+  "projectFilePath": "D:\\Tarea\\Searchfight\\Searchfight.Infrastructure\\Searchfight.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RICARDO\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
