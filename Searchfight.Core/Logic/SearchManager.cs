@@ -58,7 +58,7 @@ namespace Searchfight.Core.Logic
                     (client, result) => new Winner
                     {
                         ClientName = client,
-                        WinnerQuery = result.Max(r => r.TotalResults).ToString()
+                        WinnerQuery = result.MaxBy(r => r.TotalResults)?.Query
                     });
 
             return winners;
@@ -73,9 +73,9 @@ namespace Searchfight.Core.Logic
                 .OrderBy(result => result.SearchClient)
                 .GroupBy(result => result.Query, result => result,
                     (query, result) => new { Query = query, Total = result.Sum(r => r.TotalResults) })
-                .Max(r => r.Total).ToString();
+                .MaxBy(r => r.Total)?.Query;
 
-            return totalWinner;
+            return totalWinner ?? string.Empty;
         }
 
         public IEnumerable<IGrouping<string, SearchResult>> GetMainResults(List<SearchResult> searchResults)
@@ -87,7 +87,7 @@ namespace Searchfight.Core.Logic
                 .OrderBy(result => result.SearchClient)
                 .ToLookup(result => result.Query, result => result);
 
-            return results;
+            return results!;
         }
         public async Task<List<SearchResult>> GetResultsAsync(IEnumerable<string> querys)
         {
