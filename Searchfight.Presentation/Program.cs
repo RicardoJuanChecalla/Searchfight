@@ -21,4 +21,5 @@ using Searchfight.Infrastructure.Factorys;
     {
         Console.WriteLine($"Unexpected error generating the report: {ex.Message}");
     }
+    Console.ReadKey();
 
